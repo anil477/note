@@ -1,0 +1,20 @@
+{
+   "manifest_version": 2,
+   "name": "Simple Reminder",
+   "description": "Keep a list of evrything u need to do.",
+   "version": "1.5",
+   "browser_action":
+        {
+                 "deafult_icon":"icon_128.png",
+                 "default_popup":"popup.html"
+        }, 
+   "icons": { 
+      "128": "icon_128.png" 
+        },
+
+    "permissions" : [
+              "storage"
+
+           ]
+        
+} 
